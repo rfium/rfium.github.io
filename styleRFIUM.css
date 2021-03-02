@@ -1,5 +1,5 @@
 body {
-  background-color: lightblue;
+  background-color: #F8F8F8;
 }
 
 .page{
@@ -15,7 +15,7 @@ body {
 
 .conteneurLogo{
 	display:flex;
-	background-color:black;
+	background-color: #252525;
 	width:20%;
 	align-content: center;
 	align-items: center;
@@ -52,13 +52,13 @@ body {
 }
 
 .changerPage{
-	color:black;
+	color:#252525;
 	padding:1%;
 }
 
 .changerPage:hover{
 	text-decoration:none;
-	color:black;
+	color:#252525;
 }
 
 .contenuPage{}
