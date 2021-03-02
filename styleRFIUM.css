@@ -1,0 +1,59 @@
+body {
+  background-color: lightblue;
+}
+
+.page{
+	display:flex;
+	flex-direction:column;
+}
+
+.navBarPage{
+	background-color : white;
+	display:flex;
+	flex-direction:row;
+}
+
+.conteneurLogo{
+	display:flex;
+	background-color:black;
+	width:20%;
+	align-content: center;
+	align-items: center;
+}
+
+.imgLogo{
+	max-width:80%;
+	max-height:80%;
+	padding-left:5%;
+}
+
+.diagSVGnav{
+	width:10%;
+	position: relative;
+}
+
+.conteneurBoutons{
+	width:70%;
+	display:flex;
+	justify-content: flex-end;
+}
+
+.boutonsNav{
+	display:flex;
+	flex-direction:row;
+	justify-content: space-around;
+	list-style-type: none;
+	width:100%;
+	margin:0px;
+}
+
+.onglet{
+	padding:2%;
+}
+
+
+
+.contenuPage{}
+
+.piedPage{}
+
