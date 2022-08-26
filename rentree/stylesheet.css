@@ -1,0 +1,135 @@
+/*
+                                _
+  allo! passe par               | \
+  mon github~                   | |
+  github.com/laura-salas        | |
+           |\                   | |
+          /, ~\                / /
+         X     `-.....-------./ /
+          ~-. ~  ~              |
+             \             /    |
+              \  /_     ___\   /
+              | /\ ~~~~~   \ |
+              | | \        || |
+              | |\ \       || )
+             (_/ (_/      ((_/
+*/
+
+@font-face {
+    font-family: Autography;
+    src: url(assets/Autography.otf);
+}
+
+
+html, body {
+    height: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    cursor: url('assets/cur18.gif'), auto;	
+  }
+
+a {
+    text-decoration: none;
+}
+
+a {
+    color: #89a9ff;
+}
+a:hover {
+    color: rgb(194, 148, 205);
+}
+body {
+    min-height: 100vh;
+    background-color: #ecb2ca;
+    background-image: url("assets/bg.jpg");
+    filter: saturate(0.85);
+    background-size: cover;
+    z-index: 0;
+}
+@media only screen and (max-width: 500px) {
+    body {
+        background-size: 100% 100%;
+    }
+  }
+#middle {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#top > img, #bottom > img {
+    width: 100%;
+}
+#left {
+    background-image: url("assets/left.png");
+    background-repeat: repeat-y;
+    height: 100px;
+    width: 100%;
+    height: 100%;
+}
+#right {
+    background-image: url("assets/right.png" );
+    width: 20%;
+    height: 100%;
+}
+#bottom > img {
+    height: auto;
+    width: 100%;
+}
+#bottom {
+    bottom: 0;
+}
+
+#borders {
+    width: 100%;
+    height: 6%;
+}
+#content {
+    position: relative;
+    /* z-index: 2; */
+    margin-top: 25%;
+}
+#title {
+    width: min(65%, 600px);
+    height: auto;
+}
+#note1 {
+    background-image: url("assets/notes.png");
+    width: 30em;
+    height: 20em;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#note1 > p, #note2 > p {
+    padding: min(70px, 8%);
+    padding-top: 20%;
+}
+#note1 > p, #address {
+    color: #ff77e6;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.95em;
+}
+
+#note1 > p > span {
+    padding: 2px;
+}
+#note2 {
+    background-image: url("assets/note2.png");
+    width: 450px;
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#note2 > p {
+    font-family: Autography;
+    color: #0474ff;
+    font-size: 1.8em;
+    font-weight: 300;
+}
+.highlight {
+    background: url(//s2.svgbox.net/pen-brushes.svg?ic=brush-1&color=ffff43);
+}
+#con2 { 
+    padding: min(10%, 200px);
+}
