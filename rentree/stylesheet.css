@@ -32,6 +32,10 @@ a {
     text-decoration: none;
 }
 
+a:hover, button:hover {
+    cursor: url('assets/hover.png'), auto;
+}
+
 a {
     color: #89a9ff;
 }
@@ -105,7 +109,7 @@ body {
     padding-top: 20%;
 }
 #note1 > p, #address {
-    color: #ff77e6;
+    color: #18a4c7;
     font-weight: 700;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.95em;
@@ -132,4 +136,27 @@ body {
 }
 #con2 { 
     padding: min(10%, 200px);
+}
+.panel-default > .panel-heading {
+    background-color:rgb(245, 202, 47);
+}
+
+.accordion-item > .accordion-header {
+    background-color:rgb(245, 202, 47) !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: black;
+    font-weight: 700;
+    background-color: #eecad9;
+    box-shadow: inset 0 calc(var(--bs-accordion-border-width) * -1) 0 #9d9d9d42;
+}
+
+.accordion {
+    border: red 1px;
+}
+
+.accordion-item {
+    border: var(--bs-accordion-border-width) solid #9d9d9d42;
+    background-color: rgba(255, 255, 255, 0.816);
 }
