@@ -1,0 +1,7 @@
+User-agent: Googlebot
+Disallow: /nouveau_site/
+
+User-agent: *
+Allow: /
+
+Sitemap: http://rfium.github.io/sitemap.xml
