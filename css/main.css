@@ -868,6 +868,50 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Testimonial  Button
+--------------------------------------------------------------*/
+.testimonial-container {
+  position: relative;
+  width: calc(100% - 80px);
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.w3-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(128, 128, 128, 0.5); 
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+.w3-button:hover {
+  background-color: rgba(128, 128, 128, 0.7);
+}
+
+.w3-display-left {
+  left: -50px; 
+}
+
+.w3-display-right {
+  right: -50px;
+}
+
+
+
+/*--------------------------------------------------------------
 # Portfolio Section
 --------------------------------------------------------------*/
 .portfolio .portfolio-flters {
